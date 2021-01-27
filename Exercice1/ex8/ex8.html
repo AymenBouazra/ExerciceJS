@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcule salaire</title>
+</head>
+<body>
+    <span style="color:Purple; font-size: 24px; font-weight: bold;">Salaire Brut : </span>
+    <input type="text" id="salaire">
+    <h3 style="color:Purple">Supplément: </h3>
+    <input type="radio" name="supp" id="100$"><span>Bonus de 100$</span>
+    <input type="radio" name="supp" id="150$"><span>Allocation de 150$</span><br>
+    <h3 style="color:Purple">Sexe :</h3>
+    <input type="radio" name='gender'id="homme"> <span>Homme</span> 
+    <input type="radio" name='gender' id="femme"> <span>Femme</span> 
+    <h3 style="color:Purple">Nombre d'enfants :</h3>
+    <input type="radio" name="enfant"> <span>Moins de 3 enfants</span>
+    <input type="radio" name="enfant" id="3enf"> <span>3 enfants</span>
+    <input type="radio" name="enfant" id="4enf"> <span>4 enfants ou plus</span><br><br>
+    <button onclick="calcsalaire()"> Calculer </button>
+
+    <script src="ex8.js"></script>
+</body>
+</html>
